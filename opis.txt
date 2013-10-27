@@ -1,0 +1,2 @@
+Do Raspberry podłączona jest żarówka i przycisk. Żarówka podłączona jest do pinu 13 - GPIO27 sterowana minusem
+Przycisk podłączony jest do pinu 15 GPIO22 sterowany przez opornik 10kOhm i podłączony do 3.3V
