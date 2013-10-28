@@ -1,0 +1,1 @@
+cmd_Release/obj.target/zarowka.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic  -Wl,-soname=zarowka.node -o Release/obj.target/zarowka.node -Wl,--start-group Release/obj.target/zarowka/zarowka.o -Wl,--end-group -lwiringPi

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/przycisk.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic  -Wl,-soname=przycisk.node -o Release/obj.target/przycisk.node -Wl,--start-group Release/obj.target/przycisk/przycisk.o -Wl,--end-group -lwiringPi
