@@ -1,0 +1,40 @@
+#ifndef header_h
+#define header_h
+
+int lit_a();
+int lit_b();
+int lit_c();
+int lit_d();
+int lit_e();
+int lit_f();
+int lit_g();
+int lit_h();
+int lit_i();
+int lit_j();
+int lit_k();
+int lit_l();
+int lit_m();
+int lit_n();
+int lit_o();
+int lit_p();
+int lit_q();
+int lit_r();
+int lit_s();
+int lit_t();
+int lit_u();
+int lit_v();
+int lit_w();
+int lit_x();
+int lit_y();
+int lit_z();
+/*int lit_ą();
+int lit_ć();
+int lit_ę();
+int lit_ł();
+int lit_ń();
+int lit_ó();
+int lit_ś();
+int lit_ż();
+int lit_ź();
+*/
+#endif

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/kod.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic  -Wl,-soname=kod.node -o Release/obj.target/kod.node -Wl,--start-group Release/obj.target/kod/kod.o Release/obj.target/kod/header.o -Wl,--end-group -lwiringPi
